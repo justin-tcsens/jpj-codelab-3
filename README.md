@@ -5,6 +5,7 @@ Vehicle service endpoint.
 - Navigate to Spring Boot Initializer website -> https://start.spring.io/ 
 - Fill up your application package information, with following plugins added onto it:-
     - Lombok
+    - Jersey
     - Spring Boot DevTools
     - Spring Web 
     - Rest Repositories 
@@ -27,6 +28,14 @@ Vehicle service endpoint.
 		</dependency>
     ```
 - Save the configuration to pom.xml file.
+- Open application test loader class at /src/main/test/java/my.com.tcsens.vehiclemanagement/VehicleManagementApplicationTests.java
+- Comment contextLoads() method to disable the unit test loader.
+    ```
+    //	@Test
+    //	void contextLoads() {
+    //	}
+    ```
+
 
 ### Notes:
 - Configure IntelliJ SDK project path to JDK 8 home path.
