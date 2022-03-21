@@ -16,7 +16,7 @@ Vehicle service endpoint.
 - Open pom.xml file.
 - Comment following code segment.
     ```
-        <dependency>
+        <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jooq</artifactId>
 		</dependency>
@@ -25,7 +25,7 @@ Vehicle service endpoint.
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
     ```
 - Save the configuration to pom.xml file.
 - Open application test loader class at /src/main/test/java/my.com.tcsens.vehiclemanagement/VehicleManagementApplicationTests.java
