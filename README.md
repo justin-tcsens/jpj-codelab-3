@@ -11,7 +11,7 @@ Vehicle service endpoint.
     - Flyway Migration 
     - JOOQ Access Layer 
     - MariaDB Driver
-- Download the package and import into IntelliJ IDE.
+- Download the package, extract the content and import into IntelliJ IDE.
 - Open pom.xml file.
 - Comment following code segment.
     ```
