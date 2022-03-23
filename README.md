@@ -2,20 +2,6 @@
 Vehicle service endpoint.
 
 ## Tasks
-~~
-- Navigate to Spring Boot Initializer website -> https://start.spring.io/ 
-- Fill up your application package information, with following plugins added onto it:-
-    - Lombok
-    - Jersey
-    - Spring Boot DevTools
-    - Spring Web 
-    - Rest Repositories 
-    - Flyway Migration 
-    - JOOQ Access Layer 
-    - MariaDB Driver
-- Download the package, extract the content and import into IntelliJ IDE.
-- Open pom.xml file.
-~~
 
 - Copy **pom.xml** from the repository and place it at your local workspace.
 - Comment following code segment.
