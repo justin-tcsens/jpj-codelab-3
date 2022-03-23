@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jan 17 14:56:48 SGT 2022
+spring-boot-starter-jdbc-2.6.2.jar>nexus=
+spring-boot-starter-jdbc-2.6.2.pom>nexus=
