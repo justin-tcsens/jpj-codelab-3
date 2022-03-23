@@ -1,0 +1,12 @@
+<settings>
+    <proxies>
+        <proxy>
+            <id>jpj-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>192.168.0.80</host>
+            <port>3128</port>
+            <nonProxyHosts>www.google.com</nonProxyHosts>
+        </proxy>
+    </proxies
+</settings
