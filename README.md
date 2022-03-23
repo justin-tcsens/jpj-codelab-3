@@ -2,6 +2,7 @@
 Vehicle service endpoint.
 
 ## Tasks
+~~
 - Navigate to Spring Boot Initializer website -> https://start.spring.io/ 
 - Fill up your application package information, with following plugins added onto it:-
     - Lombok
@@ -14,6 +15,9 @@ Vehicle service endpoint.
     - MariaDB Driver
 - Download the package, extract the content and import into IntelliJ IDE.
 - Open pom.xml file.
+~~
+
+- Copy **pom.xml** from the repository and place it at your local workspace.
 - Comment following code segment.
     ```
         <!-- <dependency>
@@ -27,7 +31,9 @@ Vehicle service endpoint.
 			<scope>runtime</scope>
 		</dependency> -->
     ```
-- Save the configuration to pom.xml file.
+- Save the configuration to **pom.xml** file.
+- Copy **settings.xml** from the repository, and store it at <user_dir>/.m2/ folder.
+  (e.g.: C:\Users\justin.phua\.m2\)
 - Open application test loader class at /src/main/test/java/my.com.tcsens.vehiclemanagement/VehicleManagementApplicationTests.java
 - Comment contextLoads() method to disable the unit test loader.
     ```
